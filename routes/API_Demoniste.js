@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
 require('dotenv').config();
-const translate = require('translate');
-const translateFR = require('translate');
 const puppeteer = require('puppeteer');
 // const cache = require('./../caches');
 var cacheService = require('express-api-cache');
